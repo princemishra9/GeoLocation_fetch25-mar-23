@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button{
+    width: 20vw;
+    height: 10vh;
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+#map{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    left: 15%;
+}
+.btns{
+ position: relative;
+ display: flex;
+ left: 30%;
+ gap: 2vw;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
